@@ -40,4 +40,4 @@ Contributions are welcome! To contribute, please fork this repository, make your
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://chat.openai.com/LICENSE) file for details.
+This project is licensed under the MIT License.
