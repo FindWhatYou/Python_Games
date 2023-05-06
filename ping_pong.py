@@ -5,7 +5,7 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
 # Set the dimensions of the game window
-WINDOW_WIDTH = 800
+WINDOW_WIDTH = 1000
 WINDOW_HEIGHT = 600
 
 # Initialize the Pygame library
@@ -80,8 +80,7 @@ while running:
         right_paddle_y += paddle_speed
 
     # Keep the paddles on the screen
-    if left_paddle_y < 0:
-        left_paddle_y = 0
+
     if left_paddle_y > WINDOW_HEIGHT - paddle_height:
         left_paddle_y = WINDOW_HEIGHT - paddle_height
     if right_paddle_y < 0:
